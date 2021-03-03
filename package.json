@@ -1,0 +1,29 @@
+{
+  "name": "drag-and-drop-image-uploader-with-aws-s3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "dev": "nodemon server.js",
+    "test": "concurrently \"npm start\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuakunShen/Drag-and-Drop-Image-Uploader-With-AWS-S3.git"
+  },
+  "author": "Huakun Shen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HuakunShen/Drag-and-Drop-Image-Uploader-With-AWS-S3/issues"
+  },
+  "homepage": "https://github.com/HuakunShen/Drag-and-Drop-Image-Uploader-With-AWS-S3#readme",
+  "dependencies": {
+    "aws-sdk": "^2.627.0",
+    "concurrently": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jquery": "^3.5.0",
+    "multer": "^1.4.2"
+  }
+}
